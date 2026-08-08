@@ -1,0 +1,47 @@
+body {
+    background-color: #a4f1c2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Login-form {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #043617;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #043617;
+}
+
+.campo {
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo input {
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #043617;
+    text-align: center;
+
+}
+
+#botao {
+    width: 100%;
+    padding: 10px;
+    background-color: #043617;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
